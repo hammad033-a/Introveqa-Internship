@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Muhammad Hammad — Software Engineer</title>
+  <meta name="description" content="Portfolio of Muhammad Hammad — Software Engineer" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">MUHAMMAD HAMMAD</a>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Open navigation">☰</button>
+      <nav id="site-nav" class="site-nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">SOFTWARE ENGINEER</p>
+          <h1>MUHAMMAD HAMMAD</h1>
+          <div class="cta">
+            <a class="btn" href="#contact">Contact Me</a>
+            <a class="btn ghost" href="mailto:hkhamood184@gmail.com">Email</a>
+          </div>
+          <!-- Profile paragraph placed under the CTA as requested -->
+          <p class="lead" style="margin-top:1.2rem">Software Engineering graduate with a strong technical background and team collaboration skills. Experienced in academic and personal projects involving web development, blockchain technology, and smart contract integration. Focused on building secure, user-focused software solutions that improve trust, usability, and real-world impact.</p>
+        </div>
+        <aside class="hero-card" role="complementary" aria-label="Profile image">
+          <!-- Floating avatar only; contact and address removed to display image only -->
+          <div class="avatar-wrap">
+            <picture>
+              <source srcset="avatar.jpg" />
+              <source srcset="profile.jpg" />
+              <img src="avatar.jpg" alt="Profile photo" class="avatar" id="hero-avatar">
+            </picture>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+
+  <!-- about section moved into the hero area to appear immediately under CTA as requested -->
+
+    <section id="skills" class="container skills">
+      <h2>Skills</h2>
+      <p class="lead">A blend of soft skills and technical competencies gained during my Software Engineering degree and project work.</p>
+      <div class="skill-grid">
+  <div class="skill-box" role="button" tabindex="0" aria-expanded="false">
+          <h4>Languages</h4>
+          <ul>
+            <li>JavaScript / TypeScript</li>
+            <li>Python</li>
+            <li>Solidity</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+  <div class="skill-box" role="button" tabindex="0" aria-expanded="false">
+          <h4>Frameworks & Libraries</h4>
+          <ul>
+            <li>React / Next.js</li>
+            <li>Node.js / Express</li>
+            <li>Web3.js / Ethers.js</li>
+            <li>Bootstrap / Tailwind (design systems)</li>
+          </ul>
+        </div>
+  <div class="skill-box" role="button" tabindex="0" aria-expanded="false">
+          <h4>Tools & Practices</h4>
+          <ul>
+            <li>Git, GitHub</li>
+            <li>Docker, CI/CD basics</li>
+            <li>Unit testing & debugging</li>
+            <li>Agile workflow, requirement analysis</li>
+          </ul>
+        </div>
+      </div>
+      <div style="margin-top:1rem">
+        <strong>Soft skills:</strong> Project management, Team collaboration, Time management, Effective communication, Critical thinking
+      </div>
+    </section>
+
+    <section id="education" class="container education">
+      <h2>Education</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="year">2019–2021</span>
+          <div class="details">
+            <h3>FSC</h3>
+            <p>Pakistani Islamic Private School, Al Ain, UAE</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <span class="year">2022–2026</span>
+          <div class="details">
+            <h3>COMSATS UNIVERSITY ISLAMABAD, ATTOCK CAMPUS</h3>
+            <p>Bachelor of Science in Software Engineering</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="container experience">
+      <h2>Work Experience</h2>
+      <div class="card">
+        <h3>Academic & Project Experience</h3>
+        <span class="muted">Jan 2024 – Jan 2026</span>
+        <ul>
+          <li>Developed and completed a Final Year Project based on blockchain technology.</li>
+          <li>Worked with Solidity, Ethereum, MetaMask, and IPFS for decentralized application development.</li>
+          <li>Collaborated with team members and supervisor following agile practices.</li>
+          <li>Participated in requirement analysis, system design, and UI/UX improvements.</li>
+          <li>Gained hands-on experience in debugging, testing, and documentation.</li>
+        </ul>
+      </div>
+      <div class="card certs">
+        <h3>CERTIFICATIONS</h3>
+        <ul>
+          <li>COURSERA ONLINE CERTIFICATION</li>
+          <li>Use Canva to Design Digital Course Collateral</li>
+          <li>Google Ads for Beginners</li>
+          <li>Azure: Create a REST API Using Node.js</li>
+          <li>Serverless Functions</li>
+          <li>Create a Lead Generation Messenger Chatbot</li>
+          <li>Using Chatfuel</li>
+          <li>Build a Computer Vision App with Azure Cognitive Services</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="container contact-section">
+      <h2>Contact</h2>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>Get in touch</h3>
+          <p><strong>Phone:</strong> 03175369700, 03299935999</p>
+          <p><strong>Email:</strong> <a href="mailto:hkhamood184@gmail.com">hkhamood184@gmail.com</a></p>
+          <p><strong>Address:</strong><br>Choi East House No AAD-595 Mohalla Aminabad, Attock City</p>
+          <p>You can also reach me via email to request my CV or schedule a call.</p>
+        </div>
+        <form class="contact-form" action="mailto:hkhamood184@gmail.com" method="post" enctype="text/plain">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required>
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+          <button type="submit" class="btn">Send</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© Muhammad Hammad — Software Engineer</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
